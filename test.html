@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"> 
+    
+    <title>TEST CT ANTOING</title>
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light row fixed-top">
+            <div class="col-md-4 col-8">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img style="width: 150px;" src="img/InfoClubCTA.jpg" alt="logo"></a>
+            </div>
+
+            <div class="collapse navbar-collapse col-md-4" id="navbarToggler">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0 mx-auto">
+                        <li class="nav-item ">
+                        <a class="nav-link mr-5 h3 text-danger" href="#">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link mr-5 h3 text-danger" href="#">Infos club</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link h3 text-danger" href="#">Nous contacter</a>
+                        </li>
+                    </ul>
+            </div>
+
+            <div class="col-md-4 col-4 text-right">
+                <a class="btn btn-danger mb-3" href="#">Inscription</a>
+                <a class="btn btn-danger mb-3" href="#">Connexion</a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="container-fluid position" id="presentation">
+        <div class="col-md-12 pr-0 pl-0 text-white text-center">
+            <div class="card border-0 m-0" id="top-image">
+                <img class="card-img" src="img/entrainement-croise-cyclisme_670px.jpg" alt="enfant parent" style="z-index: 1;">
+                <div class="card-img-overlay d-flex align-items-center justify-content-center flex-column caption" style="z-index: 3;">
+                    <div id="ombre" class="text-center">
+                        <div id="text-desk" data-aos="fade-up" data-aos-duration="2000">
+                            <h2 class="text-warning">Nous faisons de vos rêves d'escapades cyclistes une réalité... </h2>
+                            <p>Venez découvrir les plaisirs d'une activité sportive hybride, alliant le sport au tourisme. Sur la route ou en VTT, n'hésitez pas à nous rejoindre et ensemble, pratiquons le "Vélo-Liberté". </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="d-none mt-5" id="textResponsive" data-aos="fade-up" data-aos-duration="2000">
+        <h2 class="text-warning text-center">Nous faisons de vos rêves d'escapades cyclistes une réalité... </h2>
+        <p>Venez découvrir les plaisirs d'une activité sportive hybride, alliant le sport au tourisme. Sur la route ou en VTT, n'hésitez pas à nous rejoindre et ensemble, pratiquons le "Vélo-Liberté". </p>
+    </div>
+
+    <section id="card" class="row d-flex justify-content-between mt-5 mb-5 w-100">
+            <div class="card col-md-3 col-8 mt-3 shadow rounded px-0 mx-auto" data-aos="fade-up" data-aos-duration="2000">
+                <img class="card-img-top rounded" src="img/Lallaing3.jpg" alt="photo">
+                <div class="card-body">
+                    <h5 class="card-title text-center font-italic font-weight-bold">Les nouvelles</h5>
+                    <p class="card-text">Découvrez nos dernières actualités.</p>
+                    <div class="text-center">
+                        <a href="#" class="btn btn-danger">En savoir plus</a>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="card col-md-3 col-8 mt-3 shadow rounded px-0 mx-auto" data-aos="fade-up" data-aos-duration="2000">
+                <img class="card-img-top rounded" src="img/Bernard2.jpg" alt="Image-paysage">
+                <div class="card-body">
+                    <h5 class="card-title text-center font-italic font-weight-bold">Où irons-nous ce week-end</h5>
+                    <p class="card-text">Nos programmes pour chaque week-end.</p>
+                    <div class="text-center">
+                        <a href="#" class="btn btn-danger">Programme</a>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="card col-md-3 mt-3 col-8 shadow rounded px-0 mx-auto" data-aos="fade-up" data-aos-duration="2000">
+                <img class="card-img-top rounded" src="img/ChateauAntoing_2004.jpg" alt="Chateau">
+                <div class="card-body">
+                    <h5 class="card-title text-center font-italic font-weight-bold">Les photos de la semaine</h5>
+                    <p class="card-text">Les photos de nos précédentes sorties.</p>
+                    <div class="text-center">
+                        <a href="#" class="btn btn-danger">Nos photos</a>
+                    </div>
+                </div>
+            </div>
+    </section>
+    
+    <section class="bg-light pt-5 pb-5">
+        <div class="container">
+        <h2 id="titreDisplay" class="d-none text-center">Agenda</h2>
+        <div class="mt-5">
+            <div class="card shadow">
+                <div class="row" id="cardHoriz">
+                    <div class="col-12 col-md-4 h-100">
+                        <a href="#"><img class="w-100 h-100" src="img/BPF2020.jpg" alt="Agenda 2020"></a>
+                    </div>
+                    <div class="col-md-8 px-3 h-100">
+                        <div class="card-block px-3">
+                            <h4 class="card-title mt-3 font-weight-bold">Agenda</h4>
+                            <a class="text-decoration-none text-danger" href=""><p class="card-text mt-5" data-aos="fade-right" data-aos-duration="2000">=> 35 Km CTA (openrunner 9258458)</p></a>
+                            <a class="text-decoration-none text-danger"href=""><p class="card-text mt-5" data-aos="fade-right" data-aos-duration="2000">=> 45 km CTA (openrunner 9219317)</p></a>
+                            <a class="text-decoration-none text-danger"href=""><p class="card-text mt-5" data-aos="fade-right" data-aos-duration="2000">=> 55 km CTA (openrunner 9455504)</p></a>
+                            <a class="text-decoration-none text-danger"href=""><p class="card-text mt-5" data-aos="fade-right" data-aos-duration="2000">=> 65 km CTA (openrunner 7833164)</p></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="row mt-5 mb-5 container mx-auto">
+            <div class="col-md-6 historySlide mb-3">
+                <img id="imgHistory" class="w-100" src="http://localhost/wordpress/wp-content/uploads/2020/03/NotreHistoire.jpg" alt="Notre histoire">
+                <div class="fadedboxHistory">
+                    <a href="#"><div class="title text">L'aventure, c'est l'aventure</div></a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="imgCT">
+                    <img class="w-100" src="http://localhost/wordpress/wp-content/uploads/2020/03/fond5.jpg" alt="Facebook CT antoing">
+                    <div class="fadedboxCT">
+                        <a href="#"><div class="title text" id="textTitleCT">La passion du vélo</div></a>
+                    </div>
+                </div>
+                
+                <div class="imgVTT mt-4">
+                    <img class="w-100" src="http://localhost/wordpress/wp-content/uploads/2020/03/Fond3.jpg" alt="Facebook VTT des carrières">
+                    <div class="fadedboxVTT">
+                        <a href="#"><div class="title text" id="textTitleVTT">Route ou tout terrain</div></a>
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-light pb-5">
+        <div class="container row mx-auto">
+            <div class="col-md-6 text-center">
+                <h2 class="mb-3 mt-3 font-weight-bold" data-aos="fade-right" data-aos-duration="2000">Boutique</h2>
+                <img class="w-25" src="img/1.jpg" alt="">
+                <p>Pour retrouvez notre gamme, rendez-vous sur notre boutique.</p>
+                <a class="btn btn-danger" href="#" data-aos="fade-right" data-aos-duration="2000">Notre boutique</a>
+                
+            </div>
+
+            <div class="col-md-6 text-center">
+                <h2 class="mb-3 mt-3 font-weight-bold" data-aos="fade-left" data-aos-duration="2000">Affliliation</h2>
+                <img class="w-25" src="img/1.jpg" alt="">
+                <p>Retrouvez ici nos conditions d'admission.</p>
+                <a class="btn btn-danger" href="#" data-aos="fade-left" data-aos-duration="2000">Conditions Affiliation</a>
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="mt-5 mb-5">
+        <div>
+            <h2 class="text-center font-weight-bold">Le C.T.Antoing est affilié à la Fédération Francophone Belge de Cyclotourisme</h2>
+            <a href="#"><img style="height: 125px;" class="w-100" src="img/FFBC-Liberte.jpg" alt=""></a>
+        </div>
+    </section>
+
+    <footer class="pt-5 pb-3 bg-light">
+        <ul class=" d-flex justify-content-around">
+            <li><a class="text-decoration-none text-danger" href="#">Qui sommes-nous</a></li>
+            <li><a class="text-decoration-none text-danger" href="#">Notre histoire</a></li>
+            <li><a class="text-decoration-none text-danger" href="#">Conditions d'utilisation</a></li>
+            <li><a class="text-decoration-none text-danger" href="#">Déclaration de confidentialité</a></li>
+        </ul>
+        <p style="font-size: 10px;" class="text-center">Copyright 2020 Bizzdev - C.T.Antoing</p>
+    </footer>
+
+
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script> AOS.init(); </script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>

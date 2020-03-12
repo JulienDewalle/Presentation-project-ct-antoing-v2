@@ -1,0 +1,260 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.position{
+    position: relative;
+    padding: 0 !important;
+}
+#top-image{
+    border-radius: 0 !important;
+}
+#ombre {
+    text-shadow: 1px 1px 1px black;
+    height: 50vh;
+}
+#ombre div{
+    position: absolute;
+    top: 500px; 
+    left: 50% !important;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+#card .card-img-top {
+    height: 250px;
+}
+
+
+#cardHoriz {
+    height: 400px;
+}
+
+
+#imgHistory{
+    height: 275px;
+}
+/*
+* Hover sur l'img CT
+*/
+
+.imgCT {
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    text-align:center;
+}
+.imgCT .fadedboxCT{
+    background-color: #666666;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    transition: all 300ms ease-out;
+    opacity: 0;
+    width: 100%;
+    height: 275px;
+}
+.imgCT:hover .fadedboxCT { opacity: 0.8; }
+.imgCT .text {
+    transition: all 300ms ease-out;
+    transform: translateY(30px);
+}
+.imgCT .title {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    opacity: 0;
+    transition-delay: 0.2s;
+    transition-duration: 0.3s;
+    margin-top: 40px;
+}
+.imgCT a {
+    text-decoration: none;
+    color: red;
+}
+.imgCT:hover .title,
+.imgCT:focus .title {
+    opacity: 1;
+    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+}
+
+/* ----- HOVER SUR IMG ----- */
+
+/*
+ * hover sur l'image History
+ */
+
+ .historySlide {
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    text-align:center;
+    }
+    .historySlide .fadedboxHistory{
+    background-color: #666666;
+    position: absolute;
+    top: 0;
+    left: 15px;
+    color: #fff;
+    transition: all 300ms ease-out;
+    opacity: 0;
+    width: 95%;
+    height: 275px;
+    }
+    .historySlide:hover .fadedboxHistory { opacity: 0.8; }
+    .historySlide .text {
+    transition: all 300ms ease-out;
+    transform: translateY(30px);
+    }
+    .historySlide .title {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    opacity: 0;
+    transition-delay: 0.2s;
+    transition-duration: 0.3s;
+    margin-top: 110px;
+    color: red;
+    }
+    .historySlide a {
+        text-decoration: none;
+    }
+    .historySlide:hover .title,
+    .historySlide:focus .title {
+    opacity: 1;
+    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+    }
+
+
+/*
+* Hover sur l'img CT
+*/
+
+.imgCT {
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    text-align:center;
+}
+.imgCT .fadedboxCT{
+    background-color: #666666;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    transition: all 300ms ease-out;
+    opacity: 0;
+    width: 100%;
+    height: 275px;
+}
+.imgCT:hover .fadedboxCT { opacity: 0.8; }
+.imgCT .text {
+    transition: all 300ms ease-out;
+    transform: translateY(30px);
+}
+.imgCT .title {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    opacity: 0;
+    transition-delay: 0.2s;
+    transition-duration: 0.3s;
+    margin-top: 40px;
+    color: red;
+}
+.imgCT a {
+    text-decoration: none;
+}
+.imgCT:hover .title,
+.imgCT:focus .title {
+    opacity: 1;
+    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+}
+
+/*
+* Hover sur l'img VTT
+*/
+
+.imgVTT {
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    text-align:center;
+}
+.imgVTT .fadedboxVTT{
+    background-color: #666666;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    transition: all 300ms ease-out;
+    opacity: 0;
+    width: 100%;
+    height: 275px;
+}
+.imgVTT:hover .fadedboxVTT { opacity: 0.8; }
+.imgVTT .text {
+    transition: all 300ms ease-out;
+    transform: translateY(30px);
+}
+.imgVTT .title {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    opacity: 0;
+    transition-delay: 0.2s;
+    transition-duration: 0.3s;
+    margin-top: 40px;
+    color: red;
+}
+.imgVTT a {
+    text-decoration: none;
+}
+.imgVTT:hover .title,
+.imgVTT:focus .title {
+    opacity: 1;
+    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+}
+
+
+@media screen and (max-width: 505px) {
+    #textTitleCT {
+        margin-top: 20px !important;
+    }
+    #textTitleVTT {
+        margin-top: 20px !important;
+    }
+}
+@media screen and (max-width: 630px) {
+    #text-desk {
+        visibility: hidden;
+    }
+    #textResponsive {
+        display: block !important;
+    }
+    #hrResponsive {
+        display: block !important;
+    }
+}
+@media screen and (max-width: 767px) {
+    #cardHoriz .card-block {
+        display: none;
+    }
+    #titreDisplay {
+        display: block !important;
+    }
+    #presentation .card-img {
+        padding-top: 120px;
+    }
+    #text-desk {
+        top: 300px !important;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #text-desk {
+        top: 400px !important;
+    }
