@@ -1,7 +1,15 @@
+* {
+    line-height: 1.8em;
+    letter-spacing: .1em;
+}
 body {
     margin: 0;
     padding: 0;
     width: 100%;
+}
+header ul li a {
+    line-height: 1.3;
+    letter-spacing: 0;
 }
 .position{
     position: relative;
@@ -23,6 +31,8 @@ body {
 
 
 
+
+
 #card .card-img-top {
     height: 250px;
 }
@@ -37,6 +47,20 @@ body {
 
 #cardHoriz {
     height: 400px;
+}
+
+
+
+#agenda:before {
+    content: "";
+    position: absolute;
+    top: 1853px;
+    width: 29%;
+    left: -232px;
+    min-height: 787px;
+    z-index: 0;
+    background: repeating-linear-gradient(90deg,rgba(0,0,0,0),rgba(0,0,0,0) 38px,#fff 0,#fff 66px);
+    transform: rotate(-45deg);
 }
 
 
@@ -239,14 +263,22 @@ body {
     transform: rotate(360deg);
 }
 
+footer ul {
+    list-style:none;
+}
 
 @media screen and (max-width: 505px) {
-    #textTitleCT {
-        margin-top: 20px !important;
-    }
-    #textTitleVTT {
-        margin-top: 20px !important;
-    }
+    .historySlide .fadedboxHistory {
+        position: absolute;
+        left: 15px !important; 
+        width: 92% !important;
+     }
+     #textTitleCT {
+         margin-top: 20px !important;
+     }
+     #textTitleVTT {
+         margin-top: 20px !important;
+     }
 }
 @media screen and (max-width: 630px) {
     #text-desk {
@@ -257,6 +289,9 @@ body {
     }
     #hrResponsive {
         display: block !important;
+    }
+    #card .card-img-top {
+        height: 170px;
     }
 }
 @media screen and (max-width: 767px) {
@@ -274,7 +309,17 @@ body {
     }
 }
 
+@media screen and (max-width: 992px) {
+    #imgHistory {
+        height: 178px !important;
+    }
+}
+
 @media screen and (max-width: 1200px) {
     #text-desk {
         top: 400px !important;
     }
+    #imgHistory {
+        height: 235px;
+    }
+}
